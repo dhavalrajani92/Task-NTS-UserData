@@ -44,6 +44,7 @@
   },
   "scripts": {
     "start": "node dist/server/server.js",
+    "dev":"cross-env NODE_ENV=development nodemon --watch src/server src/server/server.js --exec babel-node",
     "heroku-postbuild": "npm run build",
     "build": "rm -rf dist && NODE_ENV=production concurrently -c blue,cyan,magenta \"webpack --config build/webpack.config.js\" \"babel ./src/server --out-dir dist/server --copy-files\""
   }
