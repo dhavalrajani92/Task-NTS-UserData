@@ -14,11 +14,14 @@ Please use node 8.x version
 
 # Enviroment variable setup
 
-#For application
+# For application
 `export PORT=4002`
 
 ## Starting application developement
 `npm run dev`
 
-## build application
+## Build application
 `npm run build && npm start`
+
+## Heroku app demo
+[Demo](https://task-nts-userdata.herokuapp.com/)
