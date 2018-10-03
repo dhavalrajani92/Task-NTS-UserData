@@ -1,0 +1,15 @@
+.dc-content{
+    position: relative;
+    margin: 0;
+    padding-top: 74px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card-main {
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+}
